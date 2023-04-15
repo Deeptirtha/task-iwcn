@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+border: 1px solid rgb(231, 231, 236);
+margin-left: 7cm;
+margin-top: 50px;
+}
+
+.heading tr th{
+    border: 1px solid;
+}
+.body tr td input{
+
+    border: 1px solid rgb(231, 231, 236);
+}
