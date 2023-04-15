@@ -15,7 +15,7 @@ function App() {
     }
     let options = {};
 
-    //making title
+    //making title if there is two line
 
     let arr = text.split("\n");
     if (arr.length > 1) {
@@ -33,7 +33,7 @@ function App() {
         options.title = title;
         options.description = description.join(" ");
       }
-    } else {
+    } else {   //if there is single line making 1st word title
 
       let arr = text.split(" ");
       if (arr[0].length > 20) {
